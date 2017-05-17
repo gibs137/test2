@@ -7,7 +7,7 @@ require 'scraperwiki.php';
 #scraperwiki::sqliteexecute("CREATE TABLE `swdata` (`date_scraped` text, `primary_web` text, `name` text, `primary_phone` text, `legal_email` text, `legal_web` text, `legal_fax` text, `num` text, `trading` text, `legal_phone` text, `primary_email` text, `primary_fax` text, `primary_address` text, `legal_address` text, `primary_courses` text)");
 #return;
 
-$max = 10060000;
+$max = 10045100;
 $counter = scraperwiki::get_var('counter',10045000);          
 if($counter<10045000)
 {
